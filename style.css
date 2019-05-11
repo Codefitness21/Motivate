@@ -1,1 +1,8 @@
-
+*{
+    color: gold;
+    background-color:blue;
+    text-align:center;
+}
+img {
+    width: 40%;
+}
