@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <style>
+          .button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+          }
+          
+          .button:hover {background-color: #3e8e41}
+          
+          .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+          }
+          </style>
+          </head>
     <title>Kelly's School of Motivation</title>
     <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/LetterM.svg/1200px-LetterM.svg.png"/>
     <link rel="stylesheet" href="./style.css">
@@ -11,7 +36,7 @@
     <p>Actions speak louder than words!</p>
     <img src="./Barbell.jpg" alt="picture of barbell">
     <br>
-    <button onclick="motivate()">Motivate Me!</button>
+    <button onclick="motivate()" class="button">Motivate Me!</button>
     <h1 id="displayText"></h1>
     <script src="script.js"></script>
   </body>
