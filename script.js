@@ -4,12 +4,12 @@
 
 const quotes = [
     "Lift the day! - Me",
-    "Excuses are the refuge of the defeated. - My dad", 
+    "Excuses are the refuge of the defeated. - My Dad", 
     "Tough times don't last. Tough people do. - Eric Thomas", 
     "Setback is a setup for a comeback. - Willie Jolley",
     "New levels bring new devils. - Eric Thomas",
-    "Win the day. Me",
-    "Green light the day- Me"
+    "Win the day. - Me",
+    "Green light the day. - Me"
 ]
  
 function motivate () {
